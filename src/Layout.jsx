@@ -48,10 +48,10 @@ export default function Layout(props) {
                                         <div>
                                             {/* <img className="inline-block h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=256&h=256&q=80" alt=""> */}
                                         </div>
-                                        <div className="ml-3">
+                                        <a target={"_blank"} href="https://github.com/KishParikh13/bootcamp-playground" className="ml-3">
                                             <p className="text-base font-medium text-gray-700 group-hover:text-gray-900">Kish Parikh</p>
                                             <p className="text-sm font-medium text-gray-500 group-hover:text-gray-700">View Github</p>
-                                        </div>
+                                        </a>
                                     </div>
                                 </a>
                             </div>
