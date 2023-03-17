@@ -20,11 +20,11 @@ const menuLinks = [{
 }]
 }, {
   "id": 2,
-  "name": "Day 2",
+  "name": "Week 2",
   "path": "/disabled",
 }, {
   "id": 3,
-  "name": "Day 3",
+  "name": "Week 3",
   "path": "/disabled",
 }];
 
@@ -35,7 +35,13 @@ const App = () => (
     <Routes>
       <Route path="/" element={
         <Layout menuLinks={menuLinks} content={
-          <h1>hi</h1>
+          <div className=' flex flex-col gap-8'>
+            <div className=' flex flex-col gap-4'>
+              <h2 className='text-3xl font-bold'>this is a documentation/playground space by Kish</h2>
+              <p className='text-xl'>I am documenting my work through the course in this simple sandbox react environment, that allows me to easily edit pages and add new code.</p>
+              <p className='text-xl'>The aim is to have a library of projects, code, and live demos that can be easily added to. The projects will include those I do in my course as well as anything else I build using the concepts from class.</p>
+            </div> 
+          </div>
         } />
        } />
 
